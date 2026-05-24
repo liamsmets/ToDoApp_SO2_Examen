@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.Pages.PersonListPage"
+             Title="Personen">
+
+    <Grid Padding="20"
+          RowDefinitions="Auto,*,Auto"
+          RowSpacing="12">
+
+        <Label Text="Personen"
+               FontSize="28"
+               FontAttributes="Bold"/>
+
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Items}"
+                        SelectionMode="None">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Padding="10"
+                            Margin="0,4"
+                            StrokeThickness="1">
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenPersonCommand}"
+                                CommandParameter="{Binding .}"/>
+                        </Border.GestureRecognizers>
+
+                        <Grid ColumnDefinitions="*,Auto"
+                              ColumnSpacing="10">
+
+                            <VerticalStackLayout>
+                                <Label Text="{Binding FirstName}"
+                                       FontAttributes="Bold"/>
+
+                                <Label Text="{Binding LastName}"/>
+                            </VerticalStackLayout>
+
+                            <Label Grid.Column="1"
+                                   Text="{Binding Age}"
+                                   VerticalOptions="Center"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Grid.Row="2"
+                Text="Nieuw"
+                Command="{Binding AddPersonCommand}"/>
+    </Grid>
+</ContentPage>

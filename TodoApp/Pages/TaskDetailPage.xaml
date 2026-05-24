@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.Pages.TaskDetailPage"
+             Title="{Binding PageTitle}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20"
+                             Spacing="12">
+
+            <Label Text="Titel *"/>
+            <Entry Text="{Binding Title}"/>
+
+            <Label Text="Beschrijving"/>
+            <Editor Text="{Binding Description}"
+                    HeightRequest="120"
+                    AutoSize="TextChanges"/>
+
+            <HorizontalStackLayout Spacing="8">
+                <CheckBox IsChecked="{Binding IsCompleted}"/>
+                <Label Text="Afgewerkt"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+
+            <Label Text="Toegewezen persoon *"/>
+
+            <Picker Title="Kies een persoon"
+                    ItemsSource="{Binding Persons}"
+                    SelectedItem="{Binding SelectedPerson}">
+                <Picker.ItemDisplayBinding>
+                    <Binding Path="FullName"/>
+                </Picker.ItemDisplayBinding>
+            </Picker>
+
+            <Label Text="{Binding ErrorMessage}"
+                   TextColor="Red"/>
+
+            <Button Text="Opslaan"
+                    Command="{Binding SaveCommand}"/>
+
+            <Button Text="Annuleren"
+                    Command="{Binding CancelCommand}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

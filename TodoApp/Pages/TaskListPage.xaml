@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.Pages.TaskListPage"
+             Title="Takenlijst">
+
+    <Grid Padding="20"
+          RowDefinitions="Auto,Auto,*,Auto"
+          RowSpacing="12">
+
+        <Label Text="Todo"
+               FontSize="28"
+               FontAttributes="Bold"/>
+
+        <HorizontalStackLayout Grid.Row="1"
+                               Spacing="8">
+            <CollectionView Grid.Row="1"
+                            ItemsSource="{Binding Strategies}"
+                            SelectionMode="None">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal"/>
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Button Text="{Binding Name}"
+                                Margin="0,0,8,0"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ApplyStrategyCommand}"
+                                CommandParameter="{Binding .}"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </HorizontalStackLayout>
+
+        <CollectionView Grid.Row="2"
+                        ItemsSource="{Binding Items}"
+                        SelectionMode="None">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Padding="10"
+                            Margin="0,4"
+                            StrokeThickness="1">
+
+                        <Grid ColumnDefinitions="Auto,*"
+                              ColumnSpacing="10">
+
+                            <CheckBox IsChecked="{Binding IsCompleted, Mode=TwoWay}"
+                                      VerticalOptions="Start"/>
+
+                            <VerticalStackLayout Grid.Column="1">
+                                <VerticalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTaskCommand}"
+                                        CommandParameter="{Binding .}"/>
+                                </VerticalStackLayout.GestureRecognizers>
+
+                                <Label Text="{Binding Title}"
+                                       FontAttributes="Bold"/>
+
+                                <Label Text="{Binding Description}"
+                                       MaxLines="2"
+                                       LineBreakMode="TailTruncation"/>
+                            </VerticalStackLayout>
+
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Grid Grid.Row="3"
+              ColumnDefinitions="*,*"
+              ColumnSpacing="10">
+
+            <Button Text="Personen"
+                    Command="{Binding OpenPersonsCommand}"/>
+
+            <Button Grid.Column="1"
+                    Text="Nieuw"
+                    Command="{Binding AddTaskCommand}"/>
+        </Grid>
+    </Grid>
+</ContentPage>

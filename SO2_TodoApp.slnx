@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TodoApp/TodoApp.csproj" />
+  <Project Path="TodoAppBL/TodoAppBL.csproj" />
+  <Project Path="TodoAppDL/TodoAppDL.csproj" />
+</Solution>

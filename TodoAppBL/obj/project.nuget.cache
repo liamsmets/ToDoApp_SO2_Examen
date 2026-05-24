@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BuTsXJHZIdk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\smets\\OneDrive\\Documenten\\Hogent\\Jaar3\\softwareOntwerp2\\SO2_TodoApp\\TodoAppBL\\TodoAppBL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smets\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

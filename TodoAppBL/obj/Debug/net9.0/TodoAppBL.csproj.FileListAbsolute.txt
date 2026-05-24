@@ -1,0 +1,24 @@
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\bin\Debug\net9.0\TodoAppBL.deps.json
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\bin\Debug\net9.0\TodoAppBL.dll
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\bin\Debug\net9.0\TodoAppBL.pdb
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.csproj.AssemblyReference.cache
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.AssemblyInfoInputs.cache
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.AssemblyInfo.cs
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.csproj.CoreCompileInputs.cache
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.dll
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\refint\TodoAppBL.dll
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.pdb
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar 3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\ref\TodoAppBL.dll
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\bin\Debug\net9.0\TodoAppBL.deps.json
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\bin\Debug\net9.0\TodoAppBL.dll
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\bin\Debug\net9.0\TodoAppBL.pdb
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.csproj.AssemblyReference.cache
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.AssemblyInfoInputs.cache
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.AssemblyInfo.cs
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.csproj.CoreCompileInputs.cache
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.dll
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\refint\TodoAppBL.dll
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\TodoAppBL.pdb
+C:\Users\smets\OneDrive\Documenten\Hogent\Jaar3\softwareOntwerp2\SO2_TodoApp\TodoAppBL\obj\Debug\net9.0\ref\TodoAppBL.dll
