@@ -16,7 +16,7 @@ namespace TodoApp.ViewModels
         private TaskService TaskService { get; }
         private NavigationService NavigationService { get; }
 
-        private ObservableCollection<ITaskListStrategy> Strategies { get; }
+        public ObservableCollection<ITaskListStrategy> Strategies { get; }
 
         private ITaskListStrategy CurrentStrategy { get; set; }
 
