@@ -7,8 +7,8 @@ namespace TodoApp.ViewModels
 {
     public class PersonDetailViewModel : ViewModel, IQueryAttributable
     {
-        public PersonService PersonService { get; }
-        public NavigationService NavigationService { get; }
+        private PersonService PersonService { get; }
+        private NavigationService NavigationService { get; }
 
         private Person _person = new();
 

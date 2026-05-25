@@ -12,8 +12,8 @@ namespace TodoApp.ViewModels
 {
     public class PersonListViewModel : ViewModel
     {
-        public PersonService PersonService { get; }
-        public NavigationService NavigationService { get; }
+        private PersonService PersonService { get; }
+        private NavigationService NavigationService { get; }
 
         private ObservableCollection<PersonViewModel> _items = new();
         public ObservableCollection<PersonViewModel> Items

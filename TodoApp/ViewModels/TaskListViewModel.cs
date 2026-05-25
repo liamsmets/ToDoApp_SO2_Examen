@@ -13,10 +13,10 @@ namespace TodoApp.ViewModels
 {
     public class TaskListViewModel : ViewModel
     {
-        public TaskService TaskService { get; }
-        public NavigationService NavigationService { get; }
+        private TaskService TaskService { get; }
+        private NavigationService NavigationService { get; }
 
-        public ObservableCollection<ITaskListStrategy> Strategies { get; }
+        private ObservableCollection<ITaskListStrategy> Strategies { get; }
 
         private ITaskListStrategy CurrentStrategy { get; set; }
 

@@ -10,9 +10,9 @@ namespace TodoApp.ViewModels
 {
     public class TaskDetailViewModel : ViewModel, IQueryAttributable
     {
-        public TaskService TaskService { get; }
-        public PersonService PersonService { get; }
-        public NavigationService NavigationService { get; }
+        private TaskService TaskService { get; }
+        private PersonService PersonService { get; }
+        private NavigationService NavigationService { get; }
 
         private TaskModel _task = new();
 

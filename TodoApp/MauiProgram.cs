@@ -17,15 +17,15 @@ namespace TodoApp
 
             builder
                 .UseMauiApp<App>()
-				.RegisterServices()
-				.RegisterStrategies()
-				.RegisterViewModels()
-				.RegisterRoutes()
-				.ConfigureFonts(fonts =>
-				{
-					fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-					fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-				});
+                .RegisterServices()
+                .RegisterStrategies()
+                .RegisterViewModels()
+                .RegisterRoutes()
+                .ConfigureFonts(fonts =>
+                {
+                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                });
 
 #if DEBUG
             builder.Logging.AddDebug();
@@ -58,7 +58,7 @@ namespace TodoApp
             return builder;
         }
 
-		private static MauiAppBuilder RegisterViewModels(this MauiAppBuilder builder)
+        private static MauiAppBuilder RegisterViewModels(this MauiAppBuilder builder)
         {
             builder.Services.AddTransient<TaskListViewModel>();
             builder.Services.AddTransient<TaskDetailViewModel>();
